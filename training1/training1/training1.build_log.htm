@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 123, 123, LIC=3UUKP-MV93B-EZZWX-HWEMF-A7NG6-02RQE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  G:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+E:\stm32-relevent\cube\training1\MDK-ARM\training1.uvprojx
+Project File Date:  12/14/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'G:\keil\ARM\ARMCC\Bin'
+Rebuild target 'training1'
+assembling startup_stm32h750xx.s...
+compiling gpio.c...
+compiling stm32h7xx_it.c...
+compiling main.c...
+../Src/main.c(102): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOA,
+PIO_PIN_1,1);
+../Src/main.c(104): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOA,
+PIO_PIN_1,0);
+../Src/main.c: 2 warnings, 0 errors
+compiling stm32h7xx_hal_msp.c...
+compiling stm32h7xx_hal_cortex.c...
+compiling stm32h7xx_hal_tim.c...
+compiling stm32h7xx_hal_tim_ex.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_flash.c...
+compiling stm32h7xx_hal_flash_ex.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_hal_hsem.c...
+compiling stm32h7xx_hal_dma_ex.c...
+compiling stm32h7xx_hal_dma.c...
+compiling stm32h7xx_hal_mdma.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal.c...
+compiling stm32h7xx_hal_i2c.c...
+compiling stm32h7xx_hal_i2c_ex.c...
+compiling stm32h7xx_hal_exti.c...
+compiling system_stm32h7xx.c...
+linking...
+Program Size: Code=3760 RO-data=712 RW-data=20 ZI-data=1028  
+FromELF: creating hex file...
+"training1\training1.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.2.3.1.pack
+                Keil.STM32H7xx_DFP.2.3.1
+                STMicroelectronics STM32H7 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_training1
+  G:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  G:\keil\ARM\PACK\Keil\STM32H7xx_DFP\2.3.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:06:49
+</pre>
+</body>
+</html>
